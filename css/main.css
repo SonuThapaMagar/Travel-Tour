@@ -2765,3 +2765,9 @@ h6 {
 .switch-wrap p {
   margin: 0;
 }
+.destination-img {
+  width: 100%;
+  height: 500px;  
+  object-fit: cover; 
+  border-radius: 1rem; 
+}
