@@ -2196,12 +2196,23 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 30px;
   display: inline-block;
 }
-
+.header-btn-about {
+  background-color: #fff;
+  padding: 8px 40px;
+  font-weight: 600;
+  color: #222;
+  box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.1);
+  border: 1px solid transparent;
+  border-radius: 20px;
+  margin-top: 30px;
+  display: inline-block;
+}
 .header-btn:hover {
   border: 1px solid #fff;
   background: transparent;
   color: #fff;
 }
+
 
 .info-area .info-thumb {
   overflow: hidden;
@@ -2778,4 +2789,10 @@ h6 {
 .card-text{
   text-align: center;
   font-size: 16px;
+}
+.about-us-box {
+  background-color: #f8f9fa; 
+  border: 2px solid #ddd;
+  border-radius: 50%;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
 }
