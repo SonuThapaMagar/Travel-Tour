@@ -50,3 +50,24 @@
 .profile-info{
   background-color: #efeff0;
 }
+ .update-image {
+    margin-top: 20px;
+} 
+.file-upload {
+  display: none;
+}
+.file-label {
+    display: inline-block;
+    margin-top: 12px;
+    padding: 10px 21px;
+    background-color: #1a81f0;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.profile-image:focus + .file-label {
+    outline: none;
+    border: 2px solid #4CAF50;
+} 
