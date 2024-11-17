@@ -31,6 +31,7 @@
   <link rel="stylesheet" href="css/animate.min.css" />
   <link rel="stylesheet" href="css/owl.carousel.css" />
   <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="./css/learn.css">
 </head>
 
 <body>
@@ -91,7 +92,7 @@
       <li class="nav-item" role="presentation">
         <a class="nav-link active" id="overview-tab" data-bs-toggle="tab" href="#overview" role="tab"
           aria-controls="overview" aria-selected="true">
-          <h3>Overview</h3>
+          <h3 class="">Overview</h3>
         </a>
       </li>
       <li class="nav-item" role="presentation">
@@ -107,225 +108,179 @@
         </a>
       </li>
       <li class="nav-item" role="presentation">
-        <a class="nav-link" id="customPkg"href="customPkg.html">
+        <a class="nav-link" id="customPkg" href="customPkg.html">
           <button class="btn btn-primary">
             Customize Tour
-          </button>  </a>
+          </button>  
+        </a>
       </li>
     </ul>
     <!-- Nav Tabs End -->
 
     <!-- Tab content -->
-    <div class="tab-content" id="myTabContent">
-      <!--Overview Start-->
-      <div class="tab-pane fade show active" id="overview" role="tabpanel" aria-labelledby="overview-tab">
-        <h4 class="mt-3">Tour Overview</h4>
-        <hr>
-        <p>
-          Nestled in the Langtang National Park, Gosaikunda is a sacred alpine lake that attracts trekkers and
-          pilgrims alike. Surrounded by towering peaks and beautiful alpine landscapes, it is a serene and spiritual
-          destination. The trek to Gosaikunda is challenging, offering breathtaking views of the Himalayas and a
-          glimpse into the rich cultural heritage of the region.
-        </p>
-        <hr>
-        <h4 class="mt-3">Tour Info</h4>
-        <br>
-        <div class="group">
-          <div class="list-group-tour pb-3">
-            <h5 style="display: inline;">Place Covered :</h5> Gosaikunda
-          </div>
-          <div class="list-group-tour pb-3">
-            <h5 style="display: inline;">Duration :</h5> 7 Days, 6 Nights
-          </div>
-          <div class="list-group-tour pb-3">
-            <h5 style="display: inline;">Start Point :</h5> Tribhuvan International Airport
-          </div>
-          <div class="list-group-tour pb-3">
-            <h5 style="display: inline;">End Point :</h5> Tribhuvan International Airport
+    <div class="tab-content-container">
+      <div class="tab-content" id="myTabContent">
+        <!--Overview Start-->
+        <div class="tab-pane fade show active" id="overview" role="tabpanel" aria-labelledby="overview-tab">
+          <h4 class="mt-3">Tour Overview</h4>
+          <hr>
+          <p>
+            Nestled in the Langtang National Park, Gosaikunda is a sacred alpine lake that attracts trekkers and
+            pilgrims alike. Surrounded by towering peaks and beautiful alpine landscapes, it is a serene and spiritual
+            destination. The trek to Gosaikunda is challenging, offering breathtaking views of the Himalayas and a
+            glimpse into the rich cultural heritage of the region.
+          </p>
+          <hr>
+          <h4 class="mt-3">Tour Info</h4>
+          <br>
+          <div class="group">
+            <div class="list-group-tour pb-3">
+              <h5 style="display: inline;">Place Covered :</h5> Gosaikunda
+            </div>
+            <div class="list-group-tour pb-3">
+              <h5 style="display: inline;">Duration :</h5> 7 Days, 6 Nights
+            </div>
+            <div class="list-group-tour pb-3">
+              <h5 style="display: inline;">Start Point :</h5> Tribhuvan International Airport
+            </div>
+            <div class="list-group-tour pb-3">
+              <h5 style="display: inline;">End Point :</h5> Tribhuvan International Airport
+            </div>
           </div>
         </div>
+        <!--Overview End-->
+
+        <!--Itinerary start-->
+        <div class="tab-pane fade" id="itinerary" role="tabpanel" aria-labelledby="itinerary-tab">
+          <h4 class="mt-3 m-3">Itinerary</h4>
+          <!-- Day 1: Arrive in Kathmandu -->
+          <p class="d-inline-flex gap-1">
+            <p class="btn btn-secondary" type="text" data-bs-toggle="collapse" data-bs-target="#collapseDay1"
+              aria-expanded="false" aria-controls="collapseDay1">
+              Day 1: Arrive in Kathmandu
+            </p>
+          </p>
+          <div class="collapse" id="collapseDay1">
+            <div class="card card-body">
+              It is a panoramic thrill flying into Kathmandu on a clear day. You will be greeted by stunning views of the
+              snow-capped Himalayan peaks, beginning a memorable journey. After checking into your hotel, you will be
+              briefed about your upcoming activities. The rest of the day is at leisure for you to explore or relax.
+            </div>
+          </div>
+
+          <!-- Day 2: Sightseeing in Kathmandu -->
+          <p class="d-inline-flex gap-1">
+            <p class="btn btn-secondary" type="text" data-bs-toggle="collapse" data-bs-target="#collapseDay2"
+              aria-expanded="false" aria-controls="collapseDay2">
+              Day 2: Sightseeing in Kathmandu
+            </p>
+          </p>
+          <div class="collapse" id="collapseDay2">
+            <div class="card card-body">
+              Today, explore the cultural heritage of Kathmandu. Visit the Swayambhunath Stupa (Monkey Temple),
+              Pashupatinath Temple, and Boudhanath Stupa. In the evening, enjoy a local cultural performance and a
+              traditional Nepali dinner.
+            </div>
+          </div>
+
+          <!-- Day 3: Travel to Pokhara -->
+          <p class="d-inline-flex gap-1">
+            <p class="btn btn-secondary" type="text" data-bs-toggle="collapse" data-bs-target="#collapseDay3"
+              aria-expanded="false" aria-controls="collapseDay3">
+              Day 3: Travel to Pokhara
+            </p>
+          </p>
+          <div class="collapse" id="collapseDay3">
+            <div class="card card-body">
+              After breakfast, travel to Pokhara by road or flight. Enjoy the stunning views of the mountains during the
+              journey. Upon arrival in Pokhara, visit the serene Phewa Lake for a boat ride and relax by the lakeside.
+            </div>
+          </div>
+
+          <!-- Day 4: Explore Pokhara -->
+          <p class="d-inline-flex gap-1">
+            <p class="btn btn-secondary" type="text" data-bs-toggle="collapse" data-bs-target="#collapseDay4"
+              aria-expanded="false" aria-controls="collapseDay4">
+              Day 4: Explore Pokhara
+            </p>
+          </p>
+          <div class="collapse" id="collapseDay4">
+            <div class="card card-body">
+              Explore the beautiful city of Pokhara, including the World Peace Pagoda, Devi’s Fall, and the Gupteshwor
+              Cave. Enjoy a beautiful sunset view from Sarangkot, offering panoramic views of the Annapurna and
+              Machapuchare mountain ranges.
+            </div>
+          </div>
+
+          <!-- Day 5: Travel to Gosaikunda -->
+          <p class="d-inline-flex gap-1">
+            <p class="btn btn-secondary" type="text" data-bs-toggle="collapse" data-bs-target="#collapseDay5"
+              aria-expanded="false" aria-controls="collapseDay5">
+              Day 5: Travel to Gosaikunda
+            </p>
+          </p>
+          <div class="collapse" id="collapseDay5">
+            <div class="card card-body">
+              After breakfast, take a scenic drive and trek towards Gosaikunda. Gosaikunda is a high-altitude lake and a
+              sacred site for Hindus. You will enjoy stunning views of the Langtang range and alpine forests as you
+              ascend. Camp by the lake and enjoy the peaceful surroundings.
+            </div>
+          </div>
+
+          <!-- Day 6: Explore Gosaikunda -->
+          <p class="d-inline-flex gap-1">
+            <p class="btn btn-secondary" type="text" data-bs-toggle="collapse" data-bs-target="#collapseDay6"
+              aria-expanded="false" aria-controls="collapseDay6">
+              Day 6: Explore Gosaikunda
+            </p>
+          </p>
+          <div class="collapse" id="collapseDay6">
+            <div class="card card-body">
+              Explore the Gosaikunda lake and its surrounding area. You can visit other smaller lakes nearby or hike to a
+              viewpoint for panoramic views of the Langtang, Ganesh Himal, and other surrounding peaks. This is a peaceful
+              and spiritual place, perfect for reflection and nature walks.
+            </div>
+          </div>
+
+          <!-- Day 7: Return to Kathmandu -->
+          <p class="d-inline-flex gap-1">
+            <p class="btn btn-secondary" type="text" data-bs-toggle="collapse" data-bs-target="#collapseDay7"
+              aria-expanded="false" aria-controls="              collapseDay7">
+              Day 7: Return to Kathmandu
+            </p>
+          </p>
+          <div class="collapse" id="collapseDay7">
+            <div class="card card-body">
+              After breakfast, trek back to the starting point and drive or fly back to Kathmandu. You will have some free time to relax and shop for souvenirs before your departure.
+            </div>
+          </div>
+        </div>
+        <!-- Itinerary End -->
+
+        <!-- Inclusions & Exclusions start -->
+        <div class="tab-pane fade" id="inclusions" role="tabpanel" aria-labelledby="inclusions-tab">
+          <h4 class="mt-3 m-3">Inclusions & Exclusions</h4>
+          <h5>Inclusions:</h5>
+          <ul>
+            <li>Accommodation in hotels/lodges throughout the trek</li>
+            <li>Transportation from Kathmandu to Pokhara and back</li>
+            <li>Guide and porter for the trek</li>
+            <li>All meals (breakfast, lunch, and dinner) during the trek</li>
+            <li>Permits for trekking and park entry fees</li>
+          </ul>
+
+          <h5>Exclusions:</h5>
+          <ul>
+            <li>International flight tickets</li>
+            <li>Personal expenses such as tips, drinks, etc.</li>
+            <li>Travel insurance</li>
+            <li>Additional activities or sightseeing</li>
+          </ul>
+        </div>
+        <!-- Inclusions & Exclusions End -->
       </div>
-      <!--Overview End-->
-
-      <!--Itinerary start-->
-      <div class="tab-pane fade" id="itinerary" role="tabpanel" aria-labelledby="itinerary-tab">
-        <h4 class="mt-3 m-3">Itinerary</h4>
-        <!-- Day 1: Arrive in Kathmandu -->
-        <p class="d-inline-flex gap-1">
-          <p class="btn btn-secondary" type="text" data-bs-toggle="collapse" data-bs-target="#collapseDay1"
-            aria-expanded="false" aria-controls="collapseDay1">
-            Day 1: Arrive in Kathmandu
-          </p>
-        </p>
-        <div class="collapse" id="collapseDay1">
-          <div class="card card-body">
-            It is a panoramic thrill flying into Kathmandu on a clear day. You will be greeted by stunning views of the
-            snow-capped Himalayan peaks, beginning a memorable journey. After checking into your hotel, you will be
-            briefed about your upcoming activities. The rest of the day is at leisure for you to explore or relax.
-          </div>
-        </div>
-
-        <!-- Day 2: Sightseeing in Kathmandu -->
-        <p class="d-inline-flex gap-1">
-          <p class="btn btn-secondary" type="text" data-bs-toggle="collapse" data-bs-target="#collapseDay2"
-            aria-expanded="false" aria-controls="collapseDay2">
-            Day 2: Sightseeing in Kathmandu
-          </p>
-        </p>
-        <div class="collapse" id="collapseDay2">
-          <div class="card card-body">
-            Today, explore the cultural heritage of Kathmandu. Visit the Swayambhunath Stupa (Monkey Temple),
-            Pashupatinath Temple, and Boudhanath Stupa. In the evening, enjoy a local cultural performance and a
-            traditional Nepali dinner.
-          </div>
-        </div>
-
-        <!-- Day 3: Travel to Pokhara -->
-        <p class="d-inline-flex gap-1">
-          <p class="btn btn-secondary" type="text" data-bs-toggle="collapse" data-bs-target="#collapseDay3"
-            aria-expanded="false" aria-controls="collapseDay3">
-            Day 3: Travel to Pokhara
-          </p>
-        </p>
-        <div class="collapse" id="collapseDay3">
-          <div class="card card-body">
-            After breakfast, travel to Pokhara by road or flight. Enjoy the stunning views of the mountains during the
-            journey. Upon arrival in Pokhara, visit the serene Phewa Lake for a boat ride and relax by the lakeside.
-          </div>
-        </div>
-
-        <!-- Day 4: Explore Pokhara -->
-        <p class="d-inline-flex gap-1">
-          <p class="btn btn-secondary" type="text" data-bs-toggle="collapse" data-bs-target="#collapseDay4"
-            aria-expanded="false" aria-controls="collapseDay4">
-            Day 4: Explore Pokhara
-          </p>
-        </p>
-        <div class="collapse" id="collapseDay4">
-          <div class="card card-body">
-            Explore the beautiful city of Pokhara, including the World Peace Pagoda, Devi’s Fall, and the Gupteshwor
-            Cave. Enjoy a beautiful sunset view from Sarangkot, offering panoramic views of the Annapurna and
-            Machapuchare mountain ranges.
-          </div>
-        </div>
-
-        <!-- Day 5: Travel to Gosaikunda -->
-        <p class="d-inline-flex gap-1">
-          <p class="btn btn-secondary" type="text" data-bs-toggle="collapse" data-bs-target="#collapseDay5"
-            aria-expanded="false" aria-controls="collapseDay5">
-            Day 5: Travel to Gosaikunda
-          </p>
-        </p>
-        <div class="collapse" id="collapseDay5">
-          <div class="card card-body">
-            After breakfast, take a scenic drive and trek towards Gosaikunda. Gosaikunda is a high-altitude lake and a
-            sacred site for Hindus. You will enjoy stunning views of the Langtang range and alpine forests as you
-            ascend. Camp by the lake and enjoy the peaceful surroundings.
-          </div>
-        </div>
-
-        <!-- Day 6: Explore Gosaikunda -->
-        <p class="d-inline-flex gap-1">
-          <p class="btn btn-secondary" type="text" data-bs-toggle="collapse" data-bs-target="#collapseDay6"
-            aria-expanded="false" aria-controls="collapseDay6">
-            Day 6: Explore Gosaikunda
-          </p>
-        </p>
-        <div class="collapse" id="collapseDay6">
-          <div class="card card-body">
-            Explore the Gosaikunda lake and its surrounding area. You can visit other smaller lakes nearby or hike to a
-            viewpoint for panoramic views of the Langtang, Ganesh Himal, and other surrounding peaks. This is a peaceful
-            and spiritual place, perfect for reflection and nature walks.
-          </div>
-        </div>
-
-        <!-- Day 7: Return to Kathmandu -->
-        <p class="d-inline-flex gap-1">
-          <p class="btn btn-secondary" type="text" data-bs-toggle="collapse" data-bs-target="#collapseDay7"
-            aria-expanded="false" aria-controls="collapseDay7">
-            Day 7: Return to Kathmandu
-          </p>
-        </p>
-        <div class="collapse" id="collapseDay7">
-          <div class="card card-body">
-            After breakfast, begin your descent back to Kathmandu. Upon arrival, check into your hotel and relax or do
-            some last-minute shopping. In the evening, enjoy a farewell dinner with your tour group.
-          </div>
-        </div>
-      </div>
-      <!--Itinerary end-->
-
-      <!--Inclusion & Exclusion Start-->
-      <div class="tab-pane fade" id="inclusions" role="tabpanel" aria-labelledby="inclusions-tab">
-        <h4 class="mt-4">Inclusions & Exclusions</h4>
-        <hr>
-        <h4 class="mt-3">Inclusion</h4>
-        <ul class="p-3">
-          <li class="inclusion">
-            <i class="fa fa-check" style="color: green"></i>
-            <span>Accommodation in hotels as per the itinerary</span>
-          </li>
-          <li class="inclusion">
-            <i class="fa fa-check" style="color: green"></i>
-            <span>All meals (breakfast, lunch, and dinner) during the trek</span>
-          </li>
-          <li class="inclusion">
-            <i class="fa fa-check" style="color: green"></i>
-            <span>Domestic flights (if any)</span>
-          </li>
-          <li class="inclusion">
-            <i class="fa fa-check" style="color: green"></i>
-            <span>All ground transportation as per the itinerary</span>
-          </li>
-          <li class="inclusion">
-            <i class="fa fa-check" style="color: green"></i>
-            <span>Experienced English-speaking guide and porters</span>
-          </li>
-          <li class="inclusion">
-            <i class="fa fa-check" style="color: green"></i>
-            <span>All necessary permits and entry fees</span>
-          </li>
-          <li class="inclusion">
-            <i class="fa fa-check" style="color: green"></i>
-            <span>Medical kit and emergency oxygen (if needed)</span>
-          </li>
-          <li class="inclusion">
-            <i class="fa fa-check" style="color: green"></i>
-            <span>Farewell dinner in Kathmandu</span>
-          </li>
-        </ul>
-
-        <h4 class="mt-3">Exclusion</h4>
-        <ul class="p-3">
-          <li class="inclusion">
-            <i class="fa fa-times" style="color: red"></i>
-            <span>International airfare</span>
-          </li>
-          <li class="inclusion">
-            <i class="fa fa-times" style="color: red"></i>
-            <span>Nepal entry visa fees</span>
-          </li>
-          <li class="inclusion">
-            <i class="fa fa-times" style="color: red"></i>
-            <span>Personal expenses (laundry, bar bills, etc.)</span>
-          </li>
-          <li class="inclusion">
-            <i class="fa fa-times" style="color: red"></i>
-            <span>Travel insurance</span>
-          </li>
-          <li class="inclusion">
-            <i class="fa fa-times" style="color: red"></i>
-            <span>Tipping for guides and porters</span>
-          </li>
-          <li class="inclusion">
-            <i class="fa fa-times" style="color: red"></i>
-            <span>Any other expenses not mentioned in the inclusions</span>
-          </li>
-        </ul>
-      </div>
-      <!--Inclusion & Exclusion End-->
     </div>
-    <!-- Tab content End-->
+    <!-- Tab content End -->
   </div>
 </section>
 <!-- End Overview Area -->
