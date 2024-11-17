@@ -288,3 +288,44 @@ html {
  .a .register_link{
     text-align: center;
  }
+ @media (max-width: 768px) {
+  .form-panel{
+    margin: 10px;
+  }
+  .form {
+      width: 90%;
+      margin: 50px auto;
+  }
+  .form-header h1 {
+      font-size: 22px;
+  }
+  .form-group input {
+      font-size: 14px;
+      padding: 10px 15px;
+  }
+  .form-group button {
+      font-size: 14px;
+      padding: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .form {
+      width: 95%;
+      margin: 30px auto;
+  }
+  .form-header h1 {
+      font-size: 20px;
+  }
+  .form-group input {
+      font-size: 14px;
+      padding: 8px 12px;
+  }
+  .form-group button {
+      font-size: 14px;
+      padding: 10px;
+  }
+  .register_link {
+      font-size: 12px;
+  }
+}
