@@ -1,19 +1,53 @@
-<div class="mb-4 mb-lg-0 col-lg-4 col-md-6">
-  <div class="border-0 shadow-lg rounded-3 card">
-      <div class="text-center card-body">
-          <div class="d-flex justify-content-center align-items-center my-2">
-              <div class="bg-danger bg-opacity-10 text-danger rounded-circle mb-2 flex-centered p-3">
-                  <i class="bi bi-envelope h3"></i>
-              </div>
-          </div>
-          <div class="title fw-bold card-title h5">Email us</div>
-          <p class="mb-2 body-text">Reach out via email for personalized travel assistance and inquiries!</p>
-          <div class="d-block justify-content-between">
-              <a type="button" class="btn btn-light me-2 btn-sm">
-                  <i class="bi bi-envelope me-1"></i>
-                  <span class="body-text">info@leaftravelsandtour.com</span>
-              </a>
-          </div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Search Bar</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .search-bar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background-color: #f8f9fa;
+      border: 1px solid #ced4da;
+      padding: 10px;
+      border-radius: 5px;
+      margin-top: 20px;
+    }
+    .search-bar input[type="text"] {
+      flex-grow: 1;
+      border: none;
+      padding: 10px;
+      margin-right: 10px;
+    }
+    .search-bar button {
+      background-color: #007bff;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-8">
+        <div class="search-bar">
+          <input type="text" placeholder="Where are you going?">
+          <button type="button">Check-in Date</button>
+          <button type="button">Check-out Date</button>
+          <button type="button">2 adults · 0 children · 1 room</button>
+          <button type="submit">Search</button>
+        </div>
       </div>
+    </div>
   </div>
-</div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
