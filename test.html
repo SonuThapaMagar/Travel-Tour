@@ -1,53 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Search Bar</title>
-  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-  <style>
-    .search-bar {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      background-color: #f8f9fa;
-      border: 1px solid #ced4da;
-      padding: 10px;
-      border-radius: 5px;
-      margin-top: 20px;
-    }
-    .search-bar input[type="text"] {
-      flex-grow: 1;
-      border: none;
-      padding: 10px;
-      margin-right: 10px;
-    }
-    .search-bar button {
-      background-color: #007bff;
-      color: white;
-      border: none;
-      padding: 10px 20px;
-      border-radius: 5px;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Search Bar</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome CSS for search icon -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <style>
+        .search-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .search {
+            display: flex;
+            align-items: center;
+            background-color: #fff;
+            border-radius: 30px;
+            padding: 5px 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 400px;
+        }
+
+        .search-input {
+            border: none;
+            outline: none;
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            border-radius: 30px;
+        }
+
+        .search-icon {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background-color: #536bf6;
+            color: white;
+            margin-left: 10px;
+        }
+
+        .search-icon:hover {
+            background-color: #1A237E;
+        }
+
+        @media (max-width: 768px) {
+            .search {
+                max-width: 300px;
+            }
+
+            .search-input {
+                font-size: 14px;
+            }
+        }
+    </style>
 </head>
 <body>
-  <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-md-8">
-        <div class="search-bar">
-          <input type="text" placeholder="Where are you going?">
-          <button type="button">Check-in Date</button>
-          <button type="button">Check-out Date</button>
-          <button type="button">2 adults · 0 children · 1 room</button>
-          <button type="submit">Search</button>
-        </div>
-      </div>
+    <div class="search-container">
+        <form class="search">
+            <input type="text" class="search-input" placeholder="Search for tour destinations..." name="search">
+            <button type="submit" class="search-icon">
+                <i class="fa fa-search"></i>
+            </button>
+        </form>
     </div>
-  </div>
 
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
