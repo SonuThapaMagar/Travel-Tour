@@ -23,11 +23,14 @@
   font-weight: bold;
   margin-top: 10px;
 }
-
 .form-container input[type="text"],
+.form-container input[type="number"],
+.form-container input[type="email"],
+.form-container input[type="email"],
 .form-container input[type="url"],
 .form-container textarea,
-.form-container input[type="file"] {
+.form-container input[type="file"],
+.form-container select {
   width: 100%;
   padding: 10px;
   margin-top: 5px;
@@ -42,7 +45,7 @@
 }
 
 .form-container button[type="button"],
-.form-container button[type="submit"] {
+.form-container button[type=""] {
   width: 50%;
   padding: 10px;
   background-color: #007bff;
@@ -66,7 +69,8 @@
   .form-container input[type="text"],
   .form-container input[type="url"],
   .form-container textarea,
-  .form-container input[type="file"] {
+  .form-container input[type="file"] ,
+  .form-container select {
     font-size: 14px;
     padding: 8px;
   }
